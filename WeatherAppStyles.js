@@ -1,0 +1,141 @@
+import { StyleSheet } from 'react-native';
+
+export const customStyles = StyleSheet.create({
+  backgroundImage: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    width: '100%',
+    height: '100%',
+  },
+  welcomeText: {
+    fontSize: 36,
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: 20,
+    textShadowColor: 'black',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 2,
+  },
+  additionalText: {
+    fontSize: 24,
+    color: 'red',
+    textAlign: 'center',
+    marginBottom: 20,
+    textShadowColor: 'black',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 2,
+  },
+  weatherText: {
+    fontSize: 18,
+    marginBottom: 10,
+    color: 'black',
+    fontWeight: 'bold',
+  },
+  locationText: {
+    fontSize: 18,
+    color: 'blue',
+  },
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 16,
+  },
+  input: {
+    height: 40,
+    borderColor: 'black',
+    borderWidth: 2,
+    marginBottom: 20,
+    paddingLeft: 10,
+    width: '100%',
+    backgroundColor: 'white',
+    borderRadius: 10,
+    fontWeight: 'bold',
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 10,
+  },
+  leftSide: {
+    flex: 1,
+    marginRight: 10,
+  },
+  rightSide: {
+    flex: 1,
+    marginLeft: 5,
+    alignItems: 'flex-end',
+  },
+  leftText: {
+    fontSize: 16,
+    color: 'black',
+    textAlign: 'left',
+    fontWeight: 'bold',
+  },
+  dynamicText: {
+    fontSize: 16,
+    color: 'black',
+    textShadowOffset: { width: 1, height: 1 },
+    fontWeight: 'bold',
+    
+  },
+  weatherInfo: {
+    marginTop: 20,
+    alignItems: 'center',
+    backgroundColor: 'white',
+    padding: 20,
+    borderRadius: 15,
+    borderWidth: 2,
+    borderColor: 'black',
+    width: '100%',
+    alignSelf: 'stretch',
+    position: 'relative',
+  },
+  refreshButton: {
+    position: 'absolute',
+    top: 10,
+    right: 10,
+    zIndex: 1,
+  },
+  refreshIcon: {
+    width: 20,
+    height: 20,
+    resizeMode: 'contain',
+    tintColor: 'black',
+  },
+  weatherIcon: {
+    width: 50,
+    height: 50,
+    resizeMode: 'contain',
+    
+  },
+  weatherIconLarge: {
+    width: 75,
+    height: 75,
+    resizeMode: 'contain',
+  },
+  errorBox: {
+    backgroundColor: 'white',
+    borderWidth: 2,
+    borderColor: 'black',
+    borderRadius: 10,
+    padding: 10,
+    width: '100%',
+    marginTop: 10,
+  },
+  errorText: {
+    color: 'red',
+    fontWeight: 'bold',
+  },
+  buttonContainer: {
+    width: '100%',
+    marginTop: 10,
+    borderRadius: 10,
+    overflow: 'hidden',
+  },
+  button: {
+    borderRadius: 10,
+  },
+});
